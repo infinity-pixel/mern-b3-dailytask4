@@ -1,0 +1,82 @@
+@font-face {
+    font-family: kuyasha;
+    src: url("LiAlinurKuyashaUnicode.ttf");
+
+}
+@font-face {
+    font-family: shishir;
+    src: url("LiAlinurShishirUnicode.ttf");
+}
+@font-face {
+    font-family: pori;
+    src: url("LiAzadPoriUnicode.ttf");
+}
+@font-face {
+    font-family: ashalota1;
+    src: url("LiSabbirAshalota1Unicode.ttf");
+}
+
+body{
+    background-color:aliceblue;
+    font-size: 30px;
+    margin: 20px;
+}
+p{
+    text-indent: 100px;
+}
+span{
+    font-size: 25px;
+    color: red;
+}
+.div1{
+    font-family: kuyasha;
+    font-size: 40px;
+}
+.div2{
+    font-family: shishir;
+    font-size: 40px;
+}
+.div3{
+    font-family: pori;
+    font-size: 40px;
+}
+.div4{
+    font-family: ashalota1;
+    font-size: 40px;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 5px 5px 10px green;
+}
+h2{
+    text-shadow: 5px 5px 10px lightgreen;
+}
+.image-2{
+    display: flex;
+    justify-content: center;
+}
+.image-3{
+    display: flex;
+    justify-content: center;
+}
+.image-3-4 img:first-child{
+    float: left;
+    margin-right: 15px;
+}
+.image-3-4 img:last-child{
+    float: right;
+    margin-left: 15px;
+}
+.image-5-6 img:first-child{
+    float: left;
+    margin-right: 15px;
+}
+.image-5-6 img:last-child{
+    float: right;
+    margin-left: 15px;
+}
+.image-7{
+    display: flex;
+    justify-content: center;
+}
